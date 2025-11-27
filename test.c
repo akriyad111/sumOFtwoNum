@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include "main.c"   // include program for testing
+
+int add(int a, int b);  // function prototype
 
 int tests_failed = 0;
 
