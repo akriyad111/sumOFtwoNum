@@ -30,7 +30,7 @@ jobs:
           zip -r artifact/build.zip artifact/app
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: c-build-artifact
           path: artifact/build.zip
