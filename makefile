@@ -4,7 +4,7 @@ build:
 	gcc main.c -o app
 
 test:
-	gcc test.c -o test_app
+	gcc test.c main.c -o test_app
 	./test_app
 
 clean:
