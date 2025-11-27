@@ -1,8 +1,5 @@
 #include <stdio.h>
-
-int add(int a, int b) {
-    return a + b;
-}
+#include "add.h"
 
 int main() {
     int x = 5, y = 7;
