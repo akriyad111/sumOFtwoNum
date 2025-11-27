@@ -1,6 +1,5 @@
 #include <stdio.h>
-
-int add(int a, int b);  // function prototype
+#include "add.h"
 
 int tests_failed = 0;
 
@@ -21,7 +20,8 @@ int main() {
     if (tests_failed == 0) {
         printf("All tests passed!\n");
         return 0;
-    } else {
+    }
+    else {
         printf("%d tests failed.\n", tests_failed);
         return 1;
     }
