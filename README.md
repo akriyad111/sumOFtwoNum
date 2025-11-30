@@ -1,2 +1,2 @@
 # sumOFtwoNum
-input the two numbers to get their sum
+input the two numbers to get their
